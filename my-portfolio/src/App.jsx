@@ -2,7 +2,7 @@ import './App.css'
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
+      <Route path="/" element={<Navigate to="/about" />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />

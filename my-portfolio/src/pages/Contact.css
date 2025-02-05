@@ -1,0 +1,36 @@
+.contact-container {
+    background-color: #f8f4e3; 
+    color: #333; 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; 
+    margin-top: 60px; 
+    margin-bottom: 60px; /
+  }
+  
+  .contact-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif; 
+  }
+  
+  .contact-container p {
+    font-size: 1.2rem;
+    color: #555; 
+    margin-bottom: 30px;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      margin-top: 0; 
+      margin-bottom: 0;
+      padding: 20px;
+      box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1); 
+    }
+  }

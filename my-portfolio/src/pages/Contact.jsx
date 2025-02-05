@@ -1,10 +1,13 @@
 import React from "react";
 import ContactForm from "../components/ContactForm";
 
+import "./Contact.css"
+
 function Contact() {
     return (
-        <section>
-            <h2>Contact Me</h2>
+        <section className="contact-container">
+            <h2>Get in Touch</h2>
+            <p>Have a question or want to work together? Feel free to reach out</p>
             <ContactForm />
         </section>
     );

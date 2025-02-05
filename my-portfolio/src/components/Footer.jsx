@@ -8,7 +8,7 @@ function Footer() {
     const location = useLocation();
     return (
         <footer className="footer">
-            <p>© 2025 Andrew Pelfrey. All rights reserved. </p>
+            <p>Built with React | Hosted on Netlify | © 2025 Andrew Pelfrey. </p>
             <div>
             <div className="social-links">
                 <div className="footer-social-links">

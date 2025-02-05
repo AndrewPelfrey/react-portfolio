@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+/* Portfolio Section */
+#portfolio {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f4e3; 
+  }
+  
+  .section-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    color: #000; 
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .portfolio-card {
+    background: #f8f4e3;
+    border-radius: 12px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+  .portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255, 107, 107, 0.5);
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .project-info {
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .project-info h3 {
+    font-size: 1.4rem;
+    color: #000; 
+  }
+  
+  .project-info p {
+    font-size: 1rem;
+    color: #333; 
+    margin: 10px 0;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .project-links a {
+    color: #000; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .project-links a:hover {
+    color: #ff6b6b; 
+    border-bottom: 2px solid #ff6b6b;
+  }
+  
+
+  @media (max-width: 768px) {
+    #portfolio {
+      margin-top: 0; 
+      padding-top: 25px;
+    }
+  }
