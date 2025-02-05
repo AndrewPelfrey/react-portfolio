@@ -25,13 +25,13 @@ function AboutMe() {
             <p>Aspiring Developer</p>
             <div className="social-links">
                 <a href="https://github.com/AndrewPelfrey" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/github.png" alt="GitHub" />
+                <img src="/assets/github.png" alt="GitHub" />
                 </a>
                 <a href="https://linkedin.com/in/andrew-pelfrey" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/linkedin.png" alt="LinkedIn" />
+                <img src="/assets/linkedin.png" alt="LinkedIn" />
                 </a>
                 <a href="https://instagram.com/apelfreyy" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/instagram.png" alt="Intstagram" />
+                <img src="/assets/instagram.png" alt="Intstagram" />
                 </a>
             </div>
         </div>
@@ -44,11 +44,11 @@ function AboutMe() {
                 </p>
             </div>
             <div className="image">
-            <img src="src/assets/man-working-on-a-laptop-from-side-view.png" alt="Placeholder" className="small-icon"/>
+            <img src="/assets/man-working-on-a-laptop-from-side-view.png" alt="Placeholder" className="small-icon"/>
             </div>
 
       <div className="image">
-      <img src="src/assets/code.png" alt="Placeholder" className="small-icon"/>
+      <img src="/assets/code.png" alt="Placeholder" className="small-icon"/>
       </div>
             <div className="card right">
                 <h2>Skills</h2>
@@ -63,11 +63,11 @@ function AboutMe() {
                 </p>
             </div>
             <div className="image">
-            <img src="src/assets/united.png" alt="Placeholder" className="small-icon"/>
+            <img src="/assets/united.png" alt="Placeholder" className="small-icon"/>
             </div>
 
       <div className="image">
-      <img src="src/assets/gaming.png" alt="Placeholder" className="small-icon" />
+      <img src="/assets/gaming.png" alt="Placeholder" className="small-icon" />
       </div>
             <div className="card right">
                 <h2>Hobbies</h2>

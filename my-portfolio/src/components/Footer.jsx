@@ -13,13 +13,13 @@ function Footer() {
             <div className="social-links">
                 <div className="footer-social-links">
                 <a href="https://github.com/AndrewPelfrey" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/github.png" alt="GitHub" />
+                <img src="/assets/github.png" alt="GitHub" />
                 </a>
                 <a href="https://linkedin.com/in/andrew-pelfrey" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/linkedin.png" alt="LinkedIn" />
+                <img src="/assets/linkedin.png" alt="LinkedIn" />
                 </a>
                 <a href="https://instagram.com/apelfreyy" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/instagram.png" alt="Intstagram" />
+                <img src="/assets/instagram.png" alt="Intstagram" />
                 </a>
                 </div>
             </div>
