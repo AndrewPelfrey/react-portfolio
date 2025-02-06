@@ -19,7 +19,7 @@ const projects = [
     ],
     stack: "Node.js, Inquirer.js",
     image: "/assets/Screenshot 2025-02-05 at 12.40.00 PM.png",
-    liveLink: "https://drive.google.com/file/d/1FHQeUeDrRlm2zb4MumWQPaWmLJLZU4rh/view?usp=sharing",
+    liveLink: "https://drive.google.com/file/d/1ccSthIurwxaubNncIQQdGw4AjChh28Ih/view?usp=sharing",
     githubLink: "https://github.com/AndrewPelfrey/README-Generator"
   },
   {
@@ -32,11 +32,23 @@ const projects = [
     ],
     stack: "TypeScript, Inquirer.js, Node.js",
     image: "/assets/download.jpeg",
-    liveLink: "https://drive.google.com/file/d/1uk_WzDKfUQY0JGeIzy9whHWQ602TLzYz/view?usp=sharing",
+    liveLink: "https://drive.google.com/file/d/1dQGlCenGilyAVU7jXRExmFIbu0isJbT4/view?usp=sharing",
     githubLink: "https://github.com/AndrewPelfrey/Vehicle-Creator"
+  }, {
+    id: 4,
+    title: "Employee Tracker",
+    description:[
+      "A command-line app built with Node.js, MySQL, and JavaScript to manage employee data.",
+      "Allows adding, updating, and deleting employee records with SQL queries.",
+      "Focuses on SQL proficiency, relational database design, and backend development."
+    ],
+    stack: "Node.js, MySQL, JavaScript",
+    image: "/assets/download s.jpeg",
+    liveLink: "https://drive.google.com/file/d/18HHRwg8pIVdF_-kdRN3OCU4Cd3SHlPQA/view?usp=sharing",
+    githubLink: "https://github.com/AndrewPelfrey/employee-tracker"
   },
   {
-    id: 4,
+    id: 5,
     title: "Chasing The Golden Hours",
     description: [
       "A sunset dashboard built with JavaScript and APIs to help photographers plan their photoshoots.",
@@ -48,14 +60,6 @@ const projects = [
     image: "/assets/Screenshot 2024-04-08 at 2.38.45 PM.png",
     liveLink: "https://andrewpelfrey.github.io/ChasingtheGoldenHours/",
     githubLink: "https://github.com/AndrewPelfrey/ChasingtheGoldenHours"
-  },
-  {
-    id: 5,
-    title: "Employee Tracker",
-    description: "Project showcasing my SQL skills I need to publish",
-    image: "/assets/download s.jpeg",
-    liveLink: "https://example.com",
-    githubLink: "https://github.com/AndrewPelfrey/employee-tracker"
   },
   {
     id: 6,
