@@ -62,6 +62,16 @@
     margin: 10px 0;
   }
   
+  .project-info ul {
+    color: black;
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+
+  .project-info li {
+    font-size: 16px;
+    line-height: 1.6;
+  }
   .project-links {
     display: flex;
     justify-content: space-between;

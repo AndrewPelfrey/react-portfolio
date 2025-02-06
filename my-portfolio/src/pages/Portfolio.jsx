@@ -8,31 +8,46 @@ const projects = [
     description: "Still in progress.",
     image: "/images/project1.png", 
     liveLink: "https://example.com",
-    githubLink: "https://github.com/example/project1"
+    githubLink: "https://github.com/AndrewPelfrey/used-car-dealer"
   },
   {
     id: 2,
     title: "README Generator",
-    description: "A Node.js command-line tool that generates standardized, professional-quality README files for projects, streamlining the documentation process.",
+    description: [ 
+      "A command-line tool that automates README file generation.",
+      "Uses Node.js and prompts users for project details before formatting a professional README."
+    ],
+    stack: "Node.js, Inquirer.js",
     image: "/assets/Screenshot 2025-02-05 at 12.40.00 PM.png",
-    liveLink: "https://example.com",
-    githubLink: "https://github.com/example/project2"
+    liveLink: "https://drive.google.com/file/d/1FHQeUeDrRlm2zb4MumWQPaWmLJLZU4rh/view?usp=sharing",
+    githubLink: "https://github.com/AndrewPelfrey/README-Generator"
   },
   {
     id: 3,
     title: "Vehicle Creator App",
-    description: "A command-line interface app built using TypeScript that allows users to create and interact with virtual vehicles (cars, trucks, motorbikes). Users can specify details like make, model, color, and year, and even customize wheels. The app constructs dynamic vehicle objects and stores them for further use.",
+    description: [
+      "A CLI app built with TypeScript for creating and customizing virtual vehicles.",
+      "Supports motorbike wheelies, truck towing, and dynamic vehicle object creation.",
+      "Uses Inquirer.js for interactive user input and validation."
+    ],
+    stack: "TypeScript, Inquirer.js, Node.js",
     image: "/assets/download.jpeg",
-    liveLink: "https://example.com",
-    githubLink: "https://github.com/example/project3"
+    liveLink: "https://drive.google.com/file/d/1uk_WzDKfUQY0JGeIzy9whHWQ602TLzYz/view?usp=sharing",
+    githubLink: "https://github.com/AndrewPelfrey/Vehicle-Creator"
   },
   {
     id: 4,
     title: "Chasing The Golden Hours",
-    description: "A sunset dashboard built with JavaScript and APIs that helps photographers plan their photoshoots by providing accurate sunset times, directions to optimal viewing locations, and light/dark mode options. The site uses the Sunrise Sunset API and Google Maps API for location-based services. This was my first group project, where I contributed to integrating APIs and building the core functionality of the app.",
+    description: [
+      "A sunset dashboard built with JavaScript and APIs to help photographers plan their photoshoots.",
+      "Displays accurate sunset times, GPS directions, and light/dark mode options.",
+      "Uses the Sunrise Sunset API and Google Maps API for location-based services.",
+      "Contributed to integrating APIs and building core app functionality as part of my first group project."
+    ],
+    stack: "JavaScript, Google Maps API, Sunrise Sunset API, Bulma, jQuery, DayJS",
     image: "/assets/Screenshot 2024-04-08 at 2.38.45 PM.png",
-    liveLink: "https://example.com",
-    githubLink: "https://github.com/example/project2"
+    liveLink: "https://andrewpelfrey.github.io/ChasingtheGoldenHours/",
+    githubLink: "https://github.com/AndrewPelfrey/ChasingtheGoldenHours"
   },
   {
     id: 5,
@@ -40,15 +55,21 @@ const projects = [
     description: "Project showcasing my SQL skills I need to publish",
     image: "/assets/download s.jpeg",
     liveLink: "https://example.com",
-    githubLink: "https://github.com/example/project2"
+    githubLink: "https://github.com/AndrewPelfrey/employee-tracker"
   },
   {
     id: 6,
     title: "Piano Pulse",
-    description: "A virtual piano built with JavaScript, HTML, and CSS. Users can play 12 interactive keys, record, save compositions with custom names using local storage, and replay them. The app also features customizable themes and Bootstrap modals for improved UI. This project highlights my work with local storage, playback functionality, and UI enhancements.",
+    description: [
+      "A virtual piano built with interactive features using JavaScript, HTML, and CSS.",
+      "Features music recording and playback, with the ability to save compositions with custom names using local storage.",
+      "Includes customizable themes and Bootstrap modals for an improved user interface.",
+      "Developed interactive functionality, theme switching, and local storage integration, showcasing my work with UI enhancements and dynamic content."
+    ],
+    stack: "HTML5, CSS3, JavaScript, LocalStorage, Bootstrap",
     image: "/assets/pianopulse.png",
-    liveLink: "https://example.com",
-    githubLink: "https://github.com/example/project2"
+    liveLink: "https://jankrajniak.github.io/firstProject/",
+    githubLink: "https://github.com/jankrajniak/firstProject"
   }
 ];
 
@@ -62,7 +83,16 @@ const Portfolio = () => {
             <img src={project.image} alt={project.title} className="project-img" />
             <div className="project-info">
               <h3>{project.title}</h3>
-              <p>{project.description}</p>
+              <p><em>{project.stack}</em></p>
+              {Array.isArray(project.description) ? (
+                <ul>
+                  {project.description.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p>{project.description}</p>
+              )}
               <div className="project-links">
                 <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
