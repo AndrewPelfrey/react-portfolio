@@ -22,7 +22,7 @@ function AboutMe() {
         <>
         <div className="intro">
             <h1>Andrew Pelfrey</h1>
-            <p>Aspiring Developer</p>
+            <p>Full Stack Developer</p>
             <div className="social-links">
                 <a href="https://github.com/AndrewPelfrey" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/github.png" alt="GitHub" />
