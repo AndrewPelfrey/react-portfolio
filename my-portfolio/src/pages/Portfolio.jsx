@@ -4,10 +4,15 @@ import "./Portfolio.css";
 const projects = [
   {
     id: 1,
-    title: "Car Dealership",
-    description: "Still in progress.",
-    image: "/images/project1.png", 
-    liveLink: "https://example.com",
+    title: "AutoScout Car Dealership",
+    description:[
+      "A mockup website emulating a used car dealership's page and its functionality for both customers and employees.",
+      "Customers can browse available cars, while employees can manage inventory and user interactions.",
+      "Implements authentication and authorization using JWT, with bcrypt for secure password storage.",
+        ],
+    stack: "React, Node.js, Express, PostgreSQL, Sequelize, JWT, bcrypt, Vite",
+    image: "/assets/Screenshot 2025-02-17 at 6.30.43 PM.png", 
+    liveLink: "https://used-car-dealer.onrender.com/",
     githubLink: "https://github.com/AndrewPelfrey/used-car-dealer"
   },
   {

@@ -40,12 +40,12 @@ function AboutMe() {
             <div className="card left">
                 <h2>About</h2>
                 <p>
-                I am a dedicated and passionate full-stack web developer, 
-                currently pursuing a Software Development/Full Stack certificate 
-                from Case Western Reserve University. With a strong foundation 
-                in JavaScript, Node.js, React, TypeScript, SQL, and more, 
-                I strive to create innovative, user-friendly solutions to 
-                everyday challenges. My hands-on experience has shaped me into 
+                As a dedicated full-stack developer, 
+                I build dynamic and efficient web applications with a
+                 strong focus on clean, scalable code. My expertise spans
+                  front-end and back-end technologies, allowing me to
+                  develop seamless user experiences and optimize performance 
+                  across the stack. My hands-on experience has shaped me into 
                 a problem-solver with a constant desire to learn and grow.
                 </p>
             </div>
@@ -61,7 +61,7 @@ function AboutMe() {
                 <p>
                 I specialize in front-end development, crafting polished, 
                 responsive UIs. I am proficient in React, HTML, CSS, JavaScript, 
-                TypeScript, and SQL, with hands-on experience using tools like 
+                TypeScript, SQL, and more with hands-on experience using tools like 
                 Node.js, Sequelize, Bootstrap, Git, and GitHub. I am 
                 committed to mastering new technologies and adapting to the 
                 ever-evolving world of web development, ensuring seamless and 
@@ -90,14 +90,14 @@ function AboutMe() {
             <div className="card right">
                 <h2>Hobbies</h2>
                 <p>
-                Outside of coding, I enjoy spending time with friends,
-                 traveling to new destinations, and exploring diverse 
-                 cultures. I also enjoy learning new things and staying
-                  active through sports. Whether it's on a hiking trail or
-                   playing team sports, I value teamwork and the lessons 
-                   that come from both individual and group activities. T
-                   hese experiences help me stay motivated and foster
-                    creativity in both my personal and professional life.
+                Outside of coding, I enjoy spending time with friends
+                and following sports. In my free time, I love to 
+                dive into new things and try to learn a new skill.
+                I find it very rewarding to solve problems and
+                help others along the way.  
+                Whether it’s through coding, collaborating with others, or 
+                diving into something new, I strive for growth and continuous
+                improvement. 
                 </p>
             </div>
         </div>
