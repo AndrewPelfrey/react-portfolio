@@ -9,6 +9,10 @@
     background-color: #f8f4e3; 
   }
   
+  .card-link {
+    text-decoration: none;
+  }
+  
   .section-title {
     font-family: 'Nunito', sans-serif;
     font-size: 1.5rem;
@@ -32,6 +36,7 @@
     overflow: hidden;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none !important;
     }
   
   .portfolio-card:hover {
@@ -80,7 +85,6 @@
   
   .project-links a {
     color: #000; 
-    text-decoration: none;
     font-weight: bold;
     transition: color 0.3s, border-bottom 0.3s;
   }
