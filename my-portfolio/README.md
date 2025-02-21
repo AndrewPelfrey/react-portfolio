@@ -1,8 +1,32 @@
-# React + Vite
+# Andrew Pelfrey Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This website showcases my work, skills, and projects as a developer.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live version of my portfolio here:  
+[Andrew Pelfrey Portfolio](https://endearing-biscotti-e6931d.netlify.app/about)
+
+## Built With
+
+- React (.jsx)
+
+## Features
+
+- **About Me** – Learn more about who I am and my background.  
+- **Projects** – View some of my best work, including descriptions and links.  
+- **Contact Me** – Reach out via the contact section.  
+- **Resume** – View or download my resume.  
+
+## Installation & Usage
+
+To run this project locally, follow these steps:  
+
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd <project-folder>
+   npm install
+   npm run dev
+
+
