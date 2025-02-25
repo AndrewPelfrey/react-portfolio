@@ -37,7 +37,7 @@ import profileImage from "/assets/portfolio-image.jpg";
           <img src={profileImage} alt="Andrew Pelfrey" className="profile-image" />
 
           </div>
-          <p className="subtitle">Software Developer | Cleveland, United States | 440-222-6719</p>
+          <p className="subtitle">Software Developer | 440-222-6719</p>
   
           <h2>Profile</h2>
           <p>
@@ -133,7 +133,7 @@ import profileImage from "/assets/portfolio-image.jpg";
 <         p>2018 — 2022</p>
 
           <div className="download-resume">
-            <a href={resumePDF} download="Andrew_Pelfrey_Resume.pdf">
+            <a href={resumePDF} download="Andrew_Pelfrey_Developer.pdf">
               <button>Download Resume</button>
             </a>
           </div>
