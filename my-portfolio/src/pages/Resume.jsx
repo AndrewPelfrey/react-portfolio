@@ -1,6 +1,6 @@
 import React from "react";
 import "./Resume.css";
-import resumePDF from "/assets/Andrew_Pelfrey_Resume.pdf";
+import resumePDF from "/assets/Andrew_Pelfrey_Developer.pdf";
 import profileImage from "/assets/portfolio-image.jpg";
 
  const Resume = () => {
