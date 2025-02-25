@@ -1,6 +1,6 @@
 import React from "react";
 import "./Resume.css";
-import resumePDF from "/assets/Andrew_Pelfrey_Developer.pdf";
+import resumePDF from "/assets/Andrew_Pelfrey_Developer_Resume.pdf";
 import profileImage from "/assets/portfolio-image.jpg";
 
  const Resume = () => {
@@ -111,7 +111,7 @@ import profileImage from "/assets/portfolio-image.jpg";
   
           <h2>Education</h2>
           <p><strong>Software Development Certificate</strong>, Case Western Reserve University, Cleveland</p>
-          <p>November 2023 — March 2025</p>
+          <p>November 2023 — April 2025</p>
           <p>Completed a full-stack web development certificate,
              learning JavaScript, React, Node.js, SQL, API integration, 
              and more.</p>
