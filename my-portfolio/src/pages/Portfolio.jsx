@@ -16,7 +16,7 @@ const projects = [
     githubLink: "https://github.com/AndrewPelfrey/used-car-dealer",
   },
   {
-    id: 2,
+    id: 5,
     title: "README Generator",
     description: [
       "A command-line tool that automates README file generation.",
@@ -28,7 +28,7 @@ const projects = [
     githubLink: "https://github.com/AndrewPelfrey/README-Generator",
   },
   {
-    id: 3,
+    id: 6,
     title: "Vehicle Creator App",
     description: [
       "A CLI app built with TypeScript for creating and customizing virtual vehicles.",
@@ -41,7 +41,7 @@ const projects = [
     githubLink: "https://github.com/AndrewPelfrey/Vehicle-Creator",
   },
   {
-    id: 4,
+    id: 7,
     title: "Employee Tracker",
     description: [
       "A command-line app built with Node.js, MySQL, and JavaScript to manage employee data.",
@@ -54,7 +54,7 @@ const projects = [
     githubLink: "https://github.com/AndrewPelfrey/employee-tracker",
   },
   {
-    id: 5,
+    id: 2,
     title: "Chasing The Golden Hours",
     description: [
       "A sunset dashboard built with JavaScript and APIs to help photographers plan their photoshoots.",
@@ -68,7 +68,7 @@ const projects = [
     githubLink: "https://github.com/AndrewPelfrey/ChasingtheGoldenHours",
   },
   {
-    id: 6,
+    id: 4,
     title: "Piano Pulse",
     description: [
       "A virtual piano built with interactive features using JavaScript, HTML, and CSS.",
@@ -81,6 +81,21 @@ const projects = [
     liveLink: "https://jankrajniak.github.io/firstProject/",
     githubLink: "https://github.com/jankrajniak/firstProject",
   },
+  {
+     id: 3,
+     title: "WordéMon",
+     description: [
+       "A daily Pokémon-themed word game built as a full-stack MERN application using React, Express, MongoDB, and GraphQL.",
+       "Players guess the featured Pokémon of the day and compete on a global leaderboard for accuracy and speed.",
+       "Features include user authentication, a fully functional game interface, data seeding, and dynamic feedback after each guess.",
+       "Contributed to frontend game logic, backend integration with MongoDB, and UI styling using TypeScript and React.",
+       "This was a collaborative project designed to deepen our understanding of full-stack development with modern technologies.",
+      ],
+      stack: "GraphQL, MongoDB, TypeScript, React",
+      image: "/assets/worde.png",
+      liveLink: "https://wordmon.onrender.com/",
+      githubLink: "https://github.com/nolangrossi/Wordemon",
+  }
 ];
 
 const Portfolio = () => {
