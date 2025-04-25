@@ -1,6 +1,6 @@
 import React from "react";
 import "./Resume.css";
-import resumePDF from "/assets/Andrew_Pelfrey_-_Software_Developer.pdf";
+import resumePDF from "/assets/AndrewPelfrey_resume.pdf";
 import profileImage from "/assets/portfolio-image.jpg";
 
  const Resume = () => {
@@ -9,7 +9,7 @@ import profileImage from "/assets/portfolio-image.jpg";
         
         <div className="resume-left">
           <h2>Contact</h2>
-          <p>Email: <a href="mailto:pelfreya6@gmail.com">pelfreya6@gmail.com</a></p>
+          <p><a href="mailto:pelfreya6@gmail.com">pelfreya6@gmail.com</a></p>
           <p><a href="https://endearing-biscotti-e6931d.netlify.app/about" target="_blank">Portfolio</a></p>
           <p><a href="https://github.com/AndrewPelfrey" target="_blank">GitHub</a></p>
           <p><a href="https://www.linkedin.com/in/andrew-pelfrey-12664a1a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a></p>
@@ -38,6 +38,11 @@ import profileImage from "/assets/portfolio-image.jpg";
 
           </div>
           <p className="subtitle">Software Developer | 440-222-6719</p>
+          <div className="download-resume">
+            <a href={resumePDF} download="AndrewPelfrey_resume.pdf">
+              <button>Download Resume</button>
+            </a>
+          </div>
   
           <h2>Profile</h2>
           <p>
@@ -132,11 +137,7 @@ import profileImage from "/assets/portfolio-image.jpg";
          <p><strong>Stocker at Giant Eagle</strong>, Cleveland</p>
 <         p>2018 — 2022</p>
 
-          <div className="download-resume">
-            <a href={resumePDF} download="Andrew_Pelfrey_Developer.pdf">
-              <button>Download Resume</button>
-            </a>
-          </div>
+          
         </div>
       </div>
     );

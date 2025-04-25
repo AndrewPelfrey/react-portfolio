@@ -70,6 +70,7 @@
 
 .card h2 {
 font-family: ' Raleway', sans-serif;
+text-align: center;
 }
 
 .card.animate {
@@ -91,11 +92,11 @@ font-family: ' Raleway', sans-serif;
 }
 
 .left {
-    text-align: center;
+    text-align: left;
 }
 
 .right {
-    text-align: center;
+    text-align: left;
 }
 
 /* Media queries */
