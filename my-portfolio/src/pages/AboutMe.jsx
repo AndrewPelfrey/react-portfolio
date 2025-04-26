@@ -59,8 +59,8 @@ function AboutMe() {
             <div className="card right">
                 <h2>Skills</h2>
                 <p>
-                I specialize in front-end development, crafting polished, 
-                responsive UIs. I am proficient in React, HTML, CSS, JavaScript, 
+                I specialize in full-stack development, crafting polished, 
+                responsive applications. I am proficient in React, HTML, CSS, JavaScript, 
                 TypeScript, SQL, and more with hands-on experience using tools like 
                 Node.js, Sequelize, Bootstrap, Git, and GitHub. I am 
                 committed to mastering new technologies and adapting to the 
@@ -92,7 +92,7 @@ function AboutMe() {
                 <p>
                 Outside of coding, I enjoy spending time with friends
                 and following sports. In my free time, I love to 
-                dive into new things and try to learn a new skill.
+                dive into new things and learn new things.
                 I find it very rewarding to solve problems and
                 help others along the way.  
                 Whether it’s through coding, collaborating with others, or 
