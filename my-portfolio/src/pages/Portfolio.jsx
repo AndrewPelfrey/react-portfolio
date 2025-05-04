@@ -3,6 +3,20 @@ import "./Portfolio.css";
 
 const projects = [
   {
+    id: 0,
+    title: "All Outdoor Fence",
+    description: [
+      "Currently in the process of developing a responsive site for a local landscaping company to help drive new customers.",
+      "Implementing SEO best practices to ensure the site ranks well on local search results and increases organic traffic.",
+      "Using Netlify Forms to seamlessly capture customer inquiries, enabling the company to respond quickly and generate leads efficiently."
+    ],
+    stack: "React, Tailwind, Node, Vite",
+    image: "/assets/All-outdoors.jpg",
+
+  },
+
+
+  {
     id: 1,
     title: "AutoScout Car Dealership",
     description: [
@@ -130,22 +144,29 @@ const Portfolio = () => {
 
             {/* Keep the "Live Demo" button inside the card */}
             <div className="project-links">
-              <a
-                href={project.liveLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="live-demo-button"
-              >
-                Live Demo
-              </a>
-              <a
-                href={project.githubLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </div>
+  {project.liveLink ? (
+    <a
+      href={project.liveLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="live-demo-button"
+    >
+      Live Demo
+    </a>
+  ) : (
+    <span className="coming-soon">Coming Soon</span>
+  )}
+  {project.githubLink && (
+    <a
+      href={project.githubLink}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+  )}
+</div>
+
           </div>
         ))}
       </div>

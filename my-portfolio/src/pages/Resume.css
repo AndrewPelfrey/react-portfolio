@@ -21,14 +21,14 @@ body {
 .name-section {
     display: flex;
     align-items: center;
-    gap: 15px; /* Space between image and name */
+    gap: 15px; 
   }
   
   .profile-image {
-    width: 125px; /* Adjust the size of the image */
-    height: 125px; /* Maintain the aspect ratio */
-    border-radius: 50%; /* Make it a circle */
-    object-fit: cover; /* Ensure image covers the area without distortion */
+    width: 125px; 
+    height: 125px; 
+    border-radius: 50%;
+    object-fit: cover; 
   }
 
 .resume-left {
@@ -50,7 +50,6 @@ body {
 .resume-left a {
   font-size: 1rem;
   color: #ff6b6b;
-  /* text-decoration: underline; */
   display: block;
   margin-bottom: 10px;
 }
